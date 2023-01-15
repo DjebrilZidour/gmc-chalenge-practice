@@ -205,7 +205,47 @@ h4{
     text-decoration: none;
 }
 
+#befo-footer{
+
+    background-color: hsl(12, 88%, 59%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 9rem;
+    margin-top: 6rem;
+
+}
+
+#befo-footer h2{
+    color: white;
+    font-size: 2.5rem;
+    width: 40%;
+}
 
 
+#befo-footer button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 16px;
+    border: none;
+    background-color: white;
+
+}
+
+#befo-footer a{
+    color:  hsl(12, 88%, 59%);;
+    text-decoration: none;
+}
+
+
+#footer{
+    border: solid 1px magenta;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+    padding: 2rem 8rem;
+}
 
 
