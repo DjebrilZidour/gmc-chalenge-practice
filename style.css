@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 56px 150px ;
+    align-items: center;
+}
+
+#navbar img{
+    height: 25px;
+}
+#nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#nav-items li {
+    margin: 0 16px;
+}
+
+#navbar button{
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 16px;
+    padding: 8px 20px;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*! main */
+
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+
+#main-text{
+    width: 50%;
+    margin-top: 50px;
+}
+#main h1{
+    font-size: 70px;
+    width: 110%;
+}
+
+#main p{
+    margin-top: 40px;
+    font-size: 25px;
+    width: 70%;
+    color: gray;
+}
+
+#main button{
+    margin-top: 40px;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 16px;
+    padding: 8px 20px;
+    box-shadow : 0 5px hsla(12, 88%, 59%, 0.378) ;
+}
+
+#main a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+#main-img{
+    width: 99%;
+    margin-left: 50px;
+}
+
+
+/* ! second-secion */
+
+
+
+#second-secion{
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 150px;
+}
+#left-part{
+    width:40%;
+}
+
+#left-part h1{
+    font-size: 40px;
+}
+
+#right-part{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+h4{
+    display: inline;
+}
+.boxs-second-sec{
+    display: flex;
+   
+}
+
+.boxs-second-sec button{
+    padding: 8px 20px;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 24px;
+    color: white;
+    margin-right: 24px;
+
+}
+
+.boxs-second-sec p{
+    margin-top: 16px;
+    color: gray;
+}
+
+.sec-sec{
+    padding-top: 36px;
+}
+
+#left-part{
+    width: 50%;
+}
+
+#left-part h2{
+    font-size: 3rem;
+    width: 100%;
+}
+
+
+#left-part p{
+    font-size: 1.2rem;
+    width: 55%;
+    color: gray;
+    margin-top: 1.3rem;
+
+}
+
+
+
+
+
+
