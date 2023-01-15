@@ -237,15 +237,56 @@ h4{
 }
 
 
-#footer{
-    border: solid 1px magenta;
-}
+
 
 #footer{
     display: flex;
     justify-content: space-between;
     margin: ;
     padding: 2rem 8rem;
+    background-color: black;
 }
+
+#footer p{
+    color: white;
+    margin-top: 0.8rem;
+}
+
+#footer input{
+    background-color: white;
+    padding: 1rem 3rem;
+    border: white;
+    border-radius: 2rem;
+
+}
+
+#social-media{
+    margin-top: 4.5rem;
+}
+
+#social-media img{
+    margin-left: 0.4rem;
+}
+
+
+#footer button{
+    background-color: hsl(12, 88%, 59%);
+    padding: 1rem 1.2rem;
+    border-radius: 24px;
+    border: none;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
 
 
