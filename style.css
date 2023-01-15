@@ -149,6 +149,11 @@ h4{
 
 }
 
+#cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .sec-title{
     text-align: center;
     font-size: 2.5rem;
@@ -188,7 +193,17 @@ h4{
 }
 
 
+#btn-2-sec{
+    padding: 0.5rem 1.5rem;
+    border-radius: 16px;
+    border: none;
+    background-color: hsl(12, 88%, 59%);
+}
 
+#btn-2-sec-text{
+    color: white;
+    text-decoration: none;
+}
 
 
 
