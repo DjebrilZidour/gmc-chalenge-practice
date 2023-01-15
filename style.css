@@ -149,6 +149,46 @@ h4{
 
 }
 
+.sec-title{
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+#team{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    
+}
+
+.team-persons{
+    background-color: rgb(251, 251, 251);
+    border: solid 2px  rgb(251, 251, 251);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.team-persons img{
+    width: 22%;
+    margin: 1rem 0;
+}
+
+.h4-cards{
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+.team-persons p{
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 
